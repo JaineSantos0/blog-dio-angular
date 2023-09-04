@@ -1,0 +1,17 @@
+header {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(231, 8, 8, 0.51);
+}
+
+.title {
+  margin-bottom: 50px;
+}
+
+.recipes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5vw;
+  justify-content: center;
+  margin: 80px 0 50px 0;
+}
