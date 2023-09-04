@@ -1,0 +1,15 @@
+.container-menu-title {
+  color: #d30e32;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgba(252, 93, 120, 0.25);
+  padding: 15px 0;
+}
+
+.container-menu-title h1 {
+  font-size: 30px;
+  font-weight: bolder;
+  display: flex;
+  align-items: flex-end;
+}
