@@ -1,0 +1,12 @@
+.container-menu-bar ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.container-menu-bar li {
+  margin: 15px;
+  list-style: none;
+  font-size: large;
+  font-weight: bolder;
+  color: #8a0909;
+}

@@ -1,0 +1,14 @@
+<div class="container-card">
+    <div class="card-photo">
+      <img src= "{{ photoCover }}" alt="photo">
+    </div>
+  <div class="card-title">
+    <h2> <a *ngIf="id" [routerLink]="['content', id]">{{ cardTitle }}</a></h2>
+  </div>
+
+  <div class="card-content">
+      <p>
+        {{ cardContent }}
+      </p>
+    </div>
+</div>
